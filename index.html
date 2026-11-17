@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Form Biodata Siswa</title>
+    <title> Biodata Siswa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,30 +15,30 @@
             
             <div class="form-group">
                 <label>NISN:</label>
-                <input type="number" id="nisn" oninput="batasiNisn(this)" placeholder="Isikan NISN" required>
+                <input type="number" id="nisn" oninput="batasiNisn(this)" placeholder="Isi NISN" required>
             </div>
 
             <div class="form-group">
                 <label>Nama:</label>
-                <input type="text" id="nama" placeholder="Isikan Nama lengkap" required>
+                <input type="text" id="nama" placeholder="Nama lengkap" required>
             </div>
 
             <div class="form-group">
                 <label>Tempat Lahir:</label>
-                <input type="text" id="tempat_lahir" placeholder="Isikan Kota kelahiran" required>
+                <input type="text" id="tempat_lahir" placeholder="Lahir di kota" required>
             </div>
 
             <div class="form-group">
                 <label>Tanggal Lahir:</label>
-                <input type="date" id="tanggal_lahir" required>
+                <input type="date" id="tanggal-lahir" required>
             </div>
 
             <div class="form-group">
                 <label>Jenis Kelamin:</label>
                 <div class="radio-group">
-                    <label><input type="radio" name="gender" value="Laki-laki" required> Laki-laki</label>
-                    <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
-                    <label><input type="radio" name="gender" value="Boti"> Boti</label>
+                    <label><input type="radio" name="jk" value="Laki-laki" required> Laki-laki</label>
+                    <label><input type="radio" name="jk" value="Perempuan"> Perempuan</label>
+                    <label><input type="radio" name="jk" value="Boti"> Boti</label>
                 </div>
             </div>
 
@@ -70,10 +70,10 @@
                 <label>Jurusan:</label>
                 <select id="jurusan" required>
                     <option value="">-- Pilih Jurusan --</option>
-                    <option value="PPLG">PPLG</option>
-                    <option value="TJKT">TJKT</option>
+                    <option value="PPLG">RPL</option>
+                    <option value="TJKT">TKJ</option>
                     <option value="TSM">TSM</option>
-                    <option value="TO">TO</option>
+                    <option value="TO">TKR</option>
                     <option value="TEI">TEI</option>
                 </select>
             </div>
@@ -85,7 +85,7 @@
 
             <div class="form-group">
                 <label>Alamat:</label>
-                <textarea id="alamat" rows="3" placeholder="IAlamat lengkap" required></textarea>
+                <textarea id="alamat" rows="3" placeholder="Alamat lengkap" required></textarea>
             </div>
 
             <div class="form-group">
@@ -101,7 +101,7 @@
 
             <div class="form-group">
                 <label>Email:</label>
-                <input type="email" id="email" placeholder="email@domain.com" required>
+                <input type="email" id="email" placeholder="contoh:andi@gmail.com" required>
             </div>
 
             <div class="form-group">
@@ -114,7 +114,7 @@
                 <input type="file" id="foto" accept="image/*" required>
             </div>
 
-            <button type="submit" class="btn-submit">Simpan</button>
+            <button type="submit" class="btn-submit">Submit</button>
         </form>
     </div>
 

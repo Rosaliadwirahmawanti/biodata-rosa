@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
+    background-color: #e7e3cb;
     padding: 20px;
 }
 
 .form-container {
     max-width: 550px;
     margin: 0 auto;
-    background: #fff;
+    background: #c1c0b6;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -66,7 +66,7 @@ textarea {
 
 .btn-submit {
     width: 100%;
-    background-color: #007bff;
+    background-color: #545450;
     color: white;
     padding: 10px;
     border: none;
